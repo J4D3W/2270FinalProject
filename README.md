@@ -39,3 +39,6 @@
 
 // NEED TO KNOW
 // Edges can have 2 key variables? (I am assuming so, it would make it easier) Answer is no, may need to make 2 graphs, more research.
+
+// Read in file with airport names and prices to other  airports, parse and build each graph (time and cost) when checking time
+// for shortest have call to check cost, eliminate any cost that is too high for income.
