@@ -38,4 +38,4 @@
 // - Contains a well documented driver to run your code (Will need for testing anyhow)
 
 // NEED TO KNOW
-// Edges can have 2 key variables? (I am assuming so, it would make it easier)
+// Edges can have 2 key variables? (I am assuming so, it would make it easier) Answer is no, may need to make 2 graphs, more research.
