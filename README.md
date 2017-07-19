@@ -12,23 +12,26 @@
 
 
 // Phase 1 design plan::
-- Choose your own adventure story 
-  - Implament a binary tree for character creation
-    Root - choose a name-> update
-      -male -> left 
-            - magic user
-              - starting at node
-              - starting at node
-            - fighter
-             - starting at node
-             - starting at node
+//- Choose your own adventure story 
+//  - Implament a binary tree for character creation
+//    Root - choose a name-> update
+//      -male -> left
+//            - magic user
+//              - starting at node
+//              - starting at node
+//            - fighter
+//             - starting at node
+//             - starting at node
       
-      -female ->right
-            - magic user
-              - starting at node
-              - starting at node
-            - fighter
-could have other options, such as nationality which would determine starting nodes. This tree would build a struct "character" which would be used for reference for the story telling "choose your own adventure" map Graph. It would be referenced for currect pronouns throught the story. Weights would be based on the "goodness" of the decision, how "nice" your choice is. Some one needs help. Do you help? yes = 2, no = 1. The "score" at the end of the game is the total weight added up. If you help EVERYONE your score will be higher than if you help no one. If you help no one, clearly you will have the shortest path through the story. 
+//      -female ->right
+//            - magic user
+//              - starting at node
+//              - starting at node
+//            - fighter
+//              - starting at node
+//              - starting at node
+
+could have other options, such as nationality which would determine starting nodes. This tree would build a struct "character" which would be used for reference for the story telling "choose your own adventure" map Graph. It would be referenced for correct pronouns throught the story. Weights would be based on the "goodness" of the decision, how "nice" your choice is. Some one needs help. Do you help? yes = 2, no = 1. The "score" at the end of the game is the total weight added up. If you help EVERYONE your score will be higher than if you help no one. If you help no one, clearly you will have the shortest path through the story. 
 
 The graph would contain a "story web" 
 - You would be able to choose the option to "finish story now" which would take you from your current position to the nearest ending, printing each leg of the journey. 
