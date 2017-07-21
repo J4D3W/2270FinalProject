@@ -13,6 +13,8 @@
 
 // Phase 1 design plan::
 // Book locator- 
+This program is designed for use in a bookstore. It is a quick reference for New York Times best sellers. These books are hard to keep on the shelf, so it allow employees to locate a book for a client and order it with the lowest possible shipping cost.
+
 // This program will use 2 different data structures. The first will be an RBT storing a list of New York Times best selling books as  // structs. The second will be  a graph of local book stores. The two data structures will be linked by vectors of pointers. The books // will have vectors of pointers at each bookstore which carries the book and the bookstores will have a vector of pointers showing 
 // which books are in the stores inventory. You will be able to print the list of books, print the list of bookstores, search by book, 
 // search by bookstore, print the inventory of a bookstore, print the list of bookstores which carry the book, find the bookstore 
